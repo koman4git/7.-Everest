@@ -5,9 +5,168 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/outline.css">
-  <title>Everest</title>
+  <title>Главная страница туристического клуба "Mountain"</title>
 </head>
 <body>
+  <header class="main-header">
+    <nav class="main-nav">
+      <a class="logo">
+        <img src="img/logo.svg" width="99" height="21" alt="Логотип клуба">
+      </a>
+      <ul class="site-navigation">
+        <li class="site-navigation-item">О нас</li>
+        <li class="site-navigation-item">Туры</li>
+        <li class="site-navigation-item">Подбор тура</li>
+        <li class="site-navigation-item">Блог</li>
+        <li class="site-navigation-item">Контакты</li>
+      </ul>
+      <a href="tel:88007773325">8 (800) 777-33-25</a>
+      <a href="#">Поиск</a>
+      <a href="#">Личный кабинет пользователя</a>
+    </nav>  
+  </header>
+  <main>
+    <h1 class="visual-hidden">Главная страница туристического клуба «Mountain»</h1>
+    <section class="promo">
+      <h2>Эверест</h2>
+      <img src="img/photo-76.jpg" width="1366" height="650" alt="Вершины горы Эверест на фоне неба">
+      <a href="card.html">Подробнее</a>
+    </section>
+    <section class="climbing-tours">
+      <h2>Туры с восхождением на вершины мира</h2>
+      <p>Мы являемся экспертами в организации альпинистских туров для опытных альпинистов и для новичков. Вы можете доверить нам
+      полную организацию вашего приключения от А до Я и быть уверенными в качестве и безопасности восхождения.</p>
+      <p>Наша компания предоставляет все необходимое: консультацию по выбору тура, перелет, визу, бронирование проживания,
+      питание, оборудование, необходимое для восхождения, опытных гидов, полное сопровождение.</p>
+      <img src="img/map.png" width="798" height="375" alt="Карта туров">
+    </section>
+    <section class="popular-tours">
+      <h2>Популярные туры</h2>
+      <ul class="tours">
+        <li class="tours-item">
+          <h3><a href="card.html">Белуха</a></h3>
+          <img src="img/photo-55.jpg" width="370" height="326" alt="Вершина горы Белуха">
+          <p>Россия</p>
+          <ul>
+            <li>4506 м</li>
+            <li>12 дней</li>
+            <li>от 45 000 ₽</li>
+          </ul>
+          <p>Средний уровень</p>
+          <button type="button"><span class="visually-hidden">Добавить в избранное</span></button>
+        </li>
+        <li class="tours-item">
+          <h3><a href="card.html">Эльбрус</a></h3>
+          <img src="img/photo-83.jpg" width="370" height="326" alt="группа туристов уходит в гору">
+          <p>Россия</p>
+          <ul>
+            <li>5642 м</li>
+            <li>10 дней</li>
+            <li>от 25 000 ₽</li>
+          </ul>
+          <p>Средний уровень</p>
+          <button type="button"><span class="visually-hidden">Добавить в избранное</span></button>
+        </li>
+        <li class="tours-item">
+          <h3><a href="card.html">Килиманджаро</a></h3>
+          <img src="img/photo-43.jpg" width="370" height="326" alt="Снежные вершины Килиманджаро">
+          <p>Россия</p>
+          <ul>
+            <li>5895 м</li>
+            <li>4 дня</li>
+            <li>от 55 000 ₽</li>
+          </ul>
+          <p>Простой уровень</p>
+          <button type="button"><span class="visually-hidden">Добавить в избранное</span></button>
+        </li>
+      </ul>
+      <button type="button">Назад</button>
+      <button type="button">Вперед</button>
+    </section>
+    <section class="prices">
+      <h2 class="visual-hidden">Стоимость туров</h2>
+      <p>Россия</p>
+      <p>Более 15 туров для альпинистов всех уровней</p>
+      <table>
+        <tr>
+          <th>Вершина</th>
+          <th>Высота</th>
+          <th>Уровень</th>
+          <th>Стоимость</th>
+        </tr>
+        <tr>
+          <td>Эльбрус</td>
+          <td>5642 м</td>
+          <td>Средний</td>
+          <td>от 25 000 ₽</td>
+        </tr>
+        <tr>
+          <td>Казбек</td>
+          <td>5033 м</td>
+          <td>Сложный</td>
+          <td>от 30 000 ₽</td>
+        </tr>
+        <tr>
+          <td>Белуха</td>
+          <td>4506 м</td>
+          <td>Простой</td>
+          <td>от 20 000 ₽</td>
+        </tr>
+        <tr>
+          <td>Дыхтау</td>
+          <td>5204 м</td>
+          <td>Сложный</td>
+          <td>от 40 000 ₽</td>
+        </tr>
+      </table>
+      <a href="#">Смотреть все</a>
+    </section>
+    <section class="blog">
+      <h2>Блог</h2>
+      <nav class="blog-nav">
+        <li class="blog-nav-item blog-nav-item-active">
+          <a href="#">
+            <time datetime="2021-01-15 00.00">15 января, 2020</time>
+            <p>Как подготовиться к первому восхождению на вершину</p>
+          </a>
+        </li>
+        <li class="blog-nav-item">
+          <a href="#">
+            <time datetime="2021-01-15 00.00">10 января, 2020</time>
+            <p>Фестиваль Alpika Freeski Аlpindustria Fest Красная Поляна 13-16 февраля</p>
+          </a>
+        </li>
+        <li class="blog-nav-item">
+          <a href="#">
+            <time datetime="2021-01-15 00.00">20 декабря, 2019</time>
+            <p>Особенности альпинизма на Камчатке. Все о Ключевой Сопке</p>
+          </a>
+        </li>
+        <li class="blog-nav-item">
+          <a href="#">
+            <time datetime="2021-01-15 00.00">15 декабря, 2019</time>
+            <p>Что происходит с человеком на высоте более 3000 метров?</p>
+          </a>
+        </li>
+        <li class="blog-nav-item">
+          <a href="#">
+            <time datetime="2021-01-15 00.00">15 декабря, 2019</time>
+            <p>Что происходит с человеком на высоте более 3000 метров?</p>
+          </a>
+        </li>
+      </nav>
+      <article class="blog-article">
+        <h3>Как подготовиться к первому восхождению на вершину</h3>
+      </article>
+    </section>
+    <section class="feedback">
+      <h2>Нужна помощь с выбором тура?</h2>
+    </section>
+    <section class="contacts">
+      <h2>Контакты</h2>
+    </section>
+  </main>
+  <footer class="main-footer"></footer>
   
 </body>
 </html>
